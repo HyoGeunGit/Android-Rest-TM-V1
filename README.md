@@ -5,7 +5,6 @@
 Kotlin, anko, Retrofit2, okhttp3, TedKeyBoardObserver Library, Material Design
 
 # Server API
-## Server Template: [Andy0414(박종훈)'s NEM-Server Template](https://github.com/Andy-0414/NEM-typescript-v2)
 ### auth
 
 -   POST /auth/user : 회원가입
@@ -194,5 +193,8 @@ Kotlin, anko, Retrofit2, okhttp3, TedKeyBoardObserver Library, Material Design
 -   GET /comment/:\_id
 -   PUT /comment/:\_id
 -   DELETE /comment/:\_id
+
+
+### Server Template By: [Andy0414(박종훈)'s NEM-Server Template](https://github.com/Andy-0414/NEM-typescript-v2)
 
 
