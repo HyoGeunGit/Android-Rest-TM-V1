@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginEnd="135dp"
+            android:layout_marginTop="90dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Template By HyoGeun(shimhg02)"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:gravity="center"
+            android:textColor="#6c6b6b"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="170dp"
+            android:textColor="#6c6b6b"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="360dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:background="@drawable/textinput_login"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/id_tv"
+                android:textColor="#000"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="password"
+            android:layout_gravity="center"
+            android:layout_marginRight="145dp"
+            android:gravity="center"
+            android:textColor="#6c6b6b"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="360dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            app:hintEnabled="true"
+            android:layout_height="50dp"
+            android:background="@drawable/textinput_login">
+
+            <EditText
+                android:id="@+id/pw_tv"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_signup"
+            android:layout_width="360dp"
+            android:layout_gravity="center"
+            android:text="LOGIN"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="아직 회원이 아니신가요?"
+            android:textColor="#c3c3c3"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/signup_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="회원가입"
+            android:textColor="#c3c3c3"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginStart="35dp"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#c3c3c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:text="추후 SNS를 위한 공간"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
