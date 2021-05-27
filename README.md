@@ -1,4 +1,5 @@
-# Restful Android Register Template
+# Android-Rest-TM-V1
+
 안드로이드용 RESTFUL API에 맞춘 로그인 템플릿입니다.
 
 # Uses Library, Tech Spec
